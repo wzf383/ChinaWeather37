@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:layout_width="50.0dip"
+            android:layout_height="wrap_content"
+            android:text="城市:"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="2.0dip"
+            />
+
+        <EditText
+            android:id="@+id/value"
+            android:text="广州"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/find"
+            android:layout_width="match_parent"
+            android:text="查询"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="                                                                Design by 37王泽钒"
+           android:layout_marginLeft="37px"
+            android:layout_marginBottom="20px"
+           android:background="@color/colorAccent"
+
+             />
+    </LinearLayout>
+</LinearLayout>
